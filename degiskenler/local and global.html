@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Local and Global</title>
+    </head>
+    <body>
+        <script>
+            var i=20;
+            function local(){
+                var i=30;
+                var i=40;
+                document.write("local deger"+i);
+            }local();
+            document.write("global degere:"+i);
+        </script>
+    </body>
+</html>

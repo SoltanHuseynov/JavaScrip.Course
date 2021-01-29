@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="TR">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+            var number=0;
+            sayi=0;
+            for (var i=0; i<=200;i++){
+                number=i;
+                console.log("0-dan 200-kadar:"+number);
+                sayi+=i;
+            }
+            console.log("0-dan 200 kadar sayilarin toplami:"+sayi);
+            //for dongusu ile faktoriyel olusturmaq
+            var number1=prompt("fktorile sayiya giriniz:");
+            var faktorile=1;
+            var zet=1;
+            for (zet;zet<=number1;zet++){
+                faktorile*=zet;
+            }
+            console.log("Number Faktorile:"+faktorile);
+            var number2=prompt("asalik icin birden buyuk sayiya giriniz:");
+            var sonuc=number2+" :asal";
+            var sin=2;
+            for (sin;sin<number2;sin++){
+                if (number2%sin==0){
+
+                    sonuc=number2+" :asla diyil";
+                    break;
+                }
+            }
+            console.log(sonuc);
+
+        </script>
+        </script>
+    </body>
+</html>
